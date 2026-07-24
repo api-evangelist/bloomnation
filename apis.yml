@@ -1,8 +1,27 @@
 aid: bloomnation
 name: BloomNation
-description: BloomNation is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: BloomNation is a flower-delivery marketplace that connects consumers with independent
+  local florists for same-day and next-day delivery of handcrafted floral arrangements across
+  40+ U.S. cities and the UK. Customers shop florist-designed bouquets for occasions such as
+  birthdays, anniversaries, sympathy, and get-well, then pay with credit cards, Apple Pay,
+  Google Pay, Amazon Pay, or Afterpay. Distinctive features include BloomSnap photo delivery
+  confirmation and video message cards. BloomNation also runs a florist-facing SaaS side
+  (point-of-sale, website, and order management, now part of Promenade) that powers member
+  shops. This profile was surfaced as an a16z portfolio company; no public developer API or
+  documentation program was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/bloomnation/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.bloomnation.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +30,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Flowers
+- Floral Delivery
+- Marketplace
+- E-Commerce
+- Local Florists
+- Same-Day Delivery
+- Retail
+- Payments
+- Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/bloomnation-domain-security.yml
+- type: Website
+  url: https://www.bloomnation.com/
+- type: TermsOfService
+  url: https://www.bloomnation.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.bloomnation.com/privacy-policy/
+- type: Support
+  url: https://help.bloomnation.com/s/?language=en_US
+- type: Blog
+  url: https://www.bloomnation.com/join/blog/
+- type: SignUp
+  url: https://www.bloomnation.com/join
+- type: Login
+  url: https://www.bloomnation.com/customer/account/login/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
